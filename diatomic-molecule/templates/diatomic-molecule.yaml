@@ -30,3 +30,15 @@ spec:
       artifacts:
       - name: geometry
         path: /app/molecule.json
+5. Commit and push your resource
+
+Commit your changes and push them to GitHub. (Note that you will not need to do this if you are using the GitHub UI to modify the repository.) The structure of your repository should look like this:
+
+
+Copy
+.
+├── src
+│   ├── diatomicmolecule.py
+│   └── setup.py
+└── templates
+    └── diatomic-molecule.yaml
